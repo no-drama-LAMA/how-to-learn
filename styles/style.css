@@ -118,8 +118,57 @@
   font-weight: 600;
 }
 
+.section-title {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 60%;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.15;
+}
 
+.section-subtitle {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 60%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
 
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: auto;
+  margin-bottom: 100px;
+  list-style-type: none;
+}
+
+.table__cell {
+  width: 250px;
+  margin: 0;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.table__text {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+}
 
 
 
