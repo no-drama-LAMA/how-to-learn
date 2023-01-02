@@ -9,6 +9,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*Шапка сайта*/
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -74,6 +76,8 @@
   z-index: 0;
 }
 
+/*Главные проблемы в обучении*/
+
 .description {
   display: flex;
   justify-content: center;
@@ -83,7 +87,8 @@
   width: 80%;
   display: flex;
   justify-content: space-between;
-  margin: 100px 0;
+  margin: 0;
+  margin-top: 100px;
 }
 
 .two-columns__brief {
@@ -117,6 +122,8 @@
 .two-columns__span-accent {
   font-weight: 600;
 }
+
+/*Цифры и факты*/
 
 .section-title {
   margin: 0 auto;
@@ -170,6 +177,8 @@
   line-height: 1.2;
 }
 
+/*Метод Фейнмана*/
+
 .feynman {
   position: relative;
   background-color: #f2f2f2;
@@ -209,6 +218,8 @@
   font-weight: normal;
   line-height: 51px;
 }
+
+/*Принципы обучения*/
 
 .kaufman {
   position: relative;
@@ -256,6 +267,7 @@
   margin: 0;
   margin-top: 80px;
   z-index: 1;
+  color: white;
 }
 
 .table__heading_theme_dark {
@@ -286,27 +298,80 @@
   z-index: 0;
 }
 
-
-
+/*Подвал сайта*/
 
 .footer {
   position: relative;
-  background-color: #1f1f1f
-}
-
-
-
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
+  background-color: #1f1f1f;
+  min-height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 0;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  height: 32px;
+  width: 228px;
+  z-index: 2;
+}
+
+.footer__author {
+  margin: 0;
+  padding: 18px 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer__column-heading {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.footer__column-links {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
